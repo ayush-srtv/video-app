@@ -5,15 +5,15 @@ function App() {
     const local = document.getElementById("video");
 
     // display local video
-    navigator.mediaDevices
-      .getUserMedia({ video: true, audio: true })
-      .then(function (stream) {
-        local.srcObject = stream;
-        local.play();
-      })
-      .catch(function (err) {
-        console.log(err);
-      });
+    // navigator.mediaDevices
+    //   .getUserMedia({ video: true, audio: true })
+    //   .then(function (stream) {
+    //     local.srcObject = stream;
+    //     local.play();
+    //   })
+    //   .catch(function (err) {
+    //     console.log(err);
+    //   });
 
     return () => {};
   }, []);
