@@ -2,12 +2,15 @@
 
 import React, { StrictMode } from "react";
 import { render } from "react-dom";
+import App from "./app";
 
 export function renderReactDom() {
   const root = document.querySelector("#root");
   const appJsx = (
     <>
-      <StrictMode>REACT JSX</StrictMode>
+      <StrictMode>
+        <App />
+      </StrictMode>
     </>
   );
   // render root element

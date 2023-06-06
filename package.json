@@ -22,10 +22,12 @@
     "@babel/preset-typescript": "7.9.0",
     "babel-loader": "8.1.0",
     "concurrently": "5.1.0",
+    "core-js": "^3.30.2",
     "express": "4.17.1",
     "html-webpack-plugin": "4.2.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "socket.io": "^4.6.2",
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3"
@@ -33,5 +35,10 @@
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": ["babel", "webpack", "react", "express"]
+  "keywords": [
+    "babel",
+    "webpack",
+    "react",
+    "express"
+  ]
 }
